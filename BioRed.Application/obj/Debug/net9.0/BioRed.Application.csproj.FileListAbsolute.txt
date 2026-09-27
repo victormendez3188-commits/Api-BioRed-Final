@@ -1,0 +1,15 @@
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\bin\Debug\net9.0\BioRed.Application.deps.json
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\bin\Debug\net9.0\BioRed.Application.dll
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\bin\Debug\net9.0\BioRed.Application.pdb
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\bin\Debug\net9.0\BioRed.Domain.dll
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\bin\Debug\net9.0\BioRed.Domain.pdb
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\obj\Debug\net9.0\BioRed.Application.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\obj\Debug\net9.0\BioRed.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\obj\Debug\net9.0\BioRed.Application.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\obj\Debug\net9.0\BioRed.Application.AssemblyInfo.cs
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\obj\Debug\net9.0\BioRed.Application.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\obj\Debug\net9.0\BioRed.A.D276FD6C.Up2Date
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\obj\Debug\net9.0\BioRed.Application.dll
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\obj\Debug\net9.0\refint\BioRed.Application.dll
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\obj\Debug\net9.0\BioRed.Application.pdb
+C:\Users\DELL\Downloads\proyecto final de analisis II Api\API\BioRed.Application\obj\Debug\net9.0\ref\BioRed.Application.dll
