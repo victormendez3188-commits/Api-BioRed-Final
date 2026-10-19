@@ -1,0 +1,32 @@
+# Visual Studio / .NET
+.vs/
+**/.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Local configuration and secrets
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+service-account*.json
+firebase*.json
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Environment files and logs
+.env
+.env.*
+*.log
+logs/
+
+# Operating systems / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,74 @@
+@BioRed_HostAddress = https://localhost:7069
+@AccessToken = PEGAR_ACCESS_TOKEN
+@RefreshToken = PEGAR_REFRESH_TOKEN
+
+### Comprobar Azure SQL
+GET {{BioRed_HostAddress}}/api/v1/health/database
+Accept: application/json
+
+### Iniciar sesión
+POST {{BioRed_HostAddress}}/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "userNameOrEmail": "admin@correo.com",
+  "password": "ClaveSegura#2026"
+}
+
+### Renovar tokens
+POST {{BioRed_HostAddress}}/api/v1/auth/refresh
+Content-Type: application/json
+
+{
+  "refreshToken": "{{RefreshToken}}"
+}
+
+### Perfil actual
+GET {{BioRed_HostAddress}}/api/v1/auth/me
+Authorization: Bearer {{AccessToken}}
+Accept: application/json
+
+### Sucursales cercanas a Coatepeque
+GET {{BioRed_HostAddress}}/api/v1/geolocation/branches/nearby?latitude=14.700255&longitude=-91.865110&maximumDistanceKm=25
+Accept: application/json
+
+### Crear acceso para un repartidor existente (requiere rol ADMIN)
+POST {{BioRed_HostAddress}}/api/v1/accounts
+Authorization: Bearer {{AccessToken}}
+Content-Type: application/json
+
+{
+  "email": "repartidor@correo.com",
+  "userType": "Repartidor",
+  "referenceId": "REP-001"
+}
+
+### Cambiar contraseña temporal (sin Bearer)
+POST {{BioRed_HostAddress}}/api/v1/auth/change-temporary-password
+Content-Type: application/json
+
+{
+  "email": "repartidor@correo.com",
+  "temporaryPassword": "PEGAR_CLAVE_RECIBIDA",
+  "newPassword": "NuevaClaveSegura#2026"
+}
+
+### Reemitir contraseña temporal (requiere rol ADMIN)
+POST {{BioRed_HostAddress}}/api/v1/accounts/1/temporary-password
+Authorization: Bearer {{AccessToken}}
+
+### Actualizar ubicación del repartidor
+POST {{BioRed_HostAddress}}/api/v1/geolocation/drivers/location
+Authorization: Bearer {{AccessToken}}
+Content-Type: application/json
+
+{
+  "latitude": 14.700255,
+  "longitude": -91.865110,
+  "orderId": null
+}
+
+### Seguimiento de un pedido
+GET {{BioRed_HostAddress}}/api/v1/geolocation/orders/1/tracking
+Authorization: Bearer {{AccessToken}}
+Accept: application/json

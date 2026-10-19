@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37216.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioRed", "BioRed.csproj", "{4AC68FD6-4AB0-4311-AF2A-222B99F5A15F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ACCA14C8-4CBC-48B0-8AC1-4F957D0E11AB} = {ACCA14C8-4CBC-48B0-8AC1-4F957D0E11AB}
+		{E679EE4E-BD6D-4D98-ADE0-D7E9BFB84E7A} = {E679EE4E-BD6D-4D98-ADE0-D7E9BFB84E7A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioRed.Application", "..\BioRed.Application\BioRed.Application.csproj", "{ACCA14C8-4CBC-48B0-8AC1-4F957D0E11AB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19A4FA8A-D2A2-4ED8-AB5A-C25980696A1A} = {19A4FA8A-D2A2-4ED8-AB5A-C25980696A1A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioRed.Domain", "..\BioRed.Domain\BioRed.Domain.csproj", "{19A4FA8A-D2A2-4ED8-AB5A-C25980696A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioRed.Infrastructure", "..\BioRed.Infrastructure\BioRed.Infrastructure.csproj", "{E679EE4E-BD6D-4D98-ADE0-D7E9BFB84E7A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19A4FA8A-D2A2-4ED8-AB5A-C25980696A1A} = {19A4FA8A-D2A2-4ED8-AB5A-C25980696A1A}
+		{ACCA14C8-4CBC-48B0-8AC1-4F957D0E11AB} = {ACCA14C8-4CBC-48B0-8AC1-4F957D0E11AB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AC68FD6-4AB0-4311-AF2A-222B99F5A15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC68FD6-4AB0-4311-AF2A-222B99F5A15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC68FD6-4AB0-4311-AF2A-222B99F5A15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC68FD6-4AB0-4311-AF2A-222B99F5A15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCA14C8-4CBC-48B0-8AC1-4F957D0E11AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCA14C8-4CBC-48B0-8AC1-4F957D0E11AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCA14C8-4CBC-48B0-8AC1-4F957D0E11AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCA14C8-4CBC-48B0-8AC1-4F957D0E11AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A4FA8A-D2A2-4ED8-AB5A-C25980696A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A4FA8A-D2A2-4ED8-AB5A-C25980696A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A4FA8A-D2A2-4ED8-AB5A-C25980696A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A4FA8A-D2A2-4ED8-AB5A-C25980696A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E679EE4E-BD6D-4D98-ADE0-D7E9BFB84E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E679EE4E-BD6D-4D98-ADE0-D7E9BFB84E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E679EE4E-BD6D-4D98-ADE0-D7E9BFB84E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E679EE4E-BD6D-4D98-ADE0-D7E9BFB84E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9AABB84-8278-4544-B3B8-32A9B60DEBD0}
+	EndGlobalSection
+EndGlobal
